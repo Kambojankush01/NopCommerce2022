@@ -1,0 +1,6 @@
+testcases\LoginTest_cb.class
+testcases\LoginTest.class
+testcases\QuickLaunch_cb.class
+utilities\TestUtilities.class
+testbase\TestBase.class
+testcases\QuickLaunch.class
