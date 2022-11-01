@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtility {
+	// Get cell Value by row
 	
 	public static void getCellValueByRow() throws IOException {
 		String excelfile = "./src/main/java/config/TestData.xlsx";
@@ -57,6 +58,7 @@ public class ExcelUtility {
 	}
 
 	// ***************************************************************************
+	// Get cell Value by row and col
 	public static void getCellValueByRowCol(int r, int c) throws IOException {
 		String excelfile = "./src/main/java/config/TestData.xlsx";
 		FileInputStream stream = new FileInputStream(new File(excelfile));
@@ -92,6 +94,7 @@ public class ExcelUtility {
 	}
 
 	// ***************************************************************
+	// Get cell Value by Row name
 	public static void getCellValueByRowName(String s) throws IOException {
 		String excelfile = "./src/main/java/config/TestData.xlsx";
 		FileInputStream stream = new FileInputStream(new File(excelfile));
